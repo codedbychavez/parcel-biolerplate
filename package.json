@@ -1,0 +1,28 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedbychavez/parcel-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codedbychavez/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/codedbychavez/parcel-boilerplate#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "lmdb": "^2.3.0-beta3",
+    "sass": "^1.50.0"
+  }
+}
